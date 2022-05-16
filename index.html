@@ -95,7 +95,7 @@
 		<script>
       		const f = document.getElementById('form');
       		const q = document.getElementById('query');
-
+ 
         	function submitted(event) {
         		event.preventDefault();
         		const url =  'https://www.amazon.es/s?k=' + q.value;
@@ -108,12 +108,12 @@
 
 		<div style="padding-left:16px">
 		</div>
-		<div class="main">
-			<p> aaaaaaaaa </p>
+		<div class="main" id="main">
+			<p id="algo"> aaaaaaaaa </p>
 			<br>
 			<p>bbbbbbbbbb</p>
 			<br>
-			<p>ccccccccc </p>
+			<p id="algo">ccccccccc </p>
 			<br>
 		</div>
 	</body>
