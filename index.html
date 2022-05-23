@@ -3,6 +3,7 @@
 	<head>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<meta charset="utf-8">
+		 <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
 		<style>
 		* {box-sizing: border-box;}
 
@@ -86,23 +87,17 @@
   			<a class="active" href="#home">Home</a>
 
   			<div class="search-container">
-    			<form action="/formulario.php" id="form">
+    			<form action="formulario.php" id="form" method="post">
       				<input type="text" placeholder="Búsqueda..." name="q" id="query">
-      				<button type="submit"><i class="fa fa-search"></i></button>
+      				<button type="submit" value="submit"><i class="fa fa-search"> </i></button>
     			</form>
   			</div>
 		</div>
-
-
 		<div style="padding-left:16px">
 		</div>
-		<div class="main" id="main">
-			<p id="algo"> aaaaaaaaa </p>
-			<br>
-			<p>bbbbbbbbbb</p>
-			<br>
-			<p id="algo">ccccccccc </p>
-			<br>
+		<div>
+
+			
 		</div>
 	</body>
 </html>
