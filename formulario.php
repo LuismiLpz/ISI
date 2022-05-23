@@ -6,6 +6,7 @@
 	<title></title>
 </head>
 <body>
+	<p> funciona </p>
 	<?php
 		$command = escapeshellcmd('python scrapperBS.py');
 		$output = shell_exec($command);
