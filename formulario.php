@@ -97,8 +97,10 @@
 		</div>
 		<div>
 			<?php
-				$query = $_POST['q'];
-				$command = escapeshellcmd('python scrapperBS.py'+$q);
+				$query = 'python3 /var/www/html/scraperBS.py ';
+				$juego= $_POST['q'];
+				$todo = $query . $juego;
+				$command = escapeshellcmd($todo);
 				$output = shell_exec($command);
 				echo $output;
 			?>
