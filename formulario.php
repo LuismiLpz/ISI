@@ -97,7 +97,7 @@
 		</div>
 		<div>
 			<?php
-				$query = 'python3 /var/www/html/scraperBS.py ';
+				$query = 'python3 /var/www/html/scrapperBS.py ';
 				$juego= $_POST['q'];
 				$todo = $query . $juego;
 				$command = escapeshellcmd($todo);
